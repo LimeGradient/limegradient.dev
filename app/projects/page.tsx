@@ -2,9 +2,7 @@
 
 import Layout from "@/components/layout";
 import ProjectCard from "@/components/project_card";
-import AnimatedContent from "@/components/react-bits/animated_content";
 import Particles from "@/components/react-bits/particles_background";
-import { Metadata } from "next";
 
 export default function ProjectsPage() {
     return (

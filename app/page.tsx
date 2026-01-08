@@ -4,8 +4,6 @@ import Layout from "@/components/layout";
 import GradientText from "@/components/react-bits/gradient_text";
 import Particles from "@/components/react-bits/particles_background";
 import VinylRecord from "@/components/vinyl_record";
-import { Metadata } from "next";
-import Image from "next/image";
 
 export default function Home() {
     return (
@@ -16,7 +14,7 @@ export default function Home() {
                     Hi, im Lily!
                 </h1>
                 <h3 className="text-zinc-50 z-1000">
-                    An 18 year old self taught programmer
+                    An 18 year old programmer
                 </h3>
                 <br />
                 <VinylRecord />

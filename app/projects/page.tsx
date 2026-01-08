@@ -1,19 +1,16 @@
+"use client"
+
 import Layout from "@/components/layout";
 import ProjectCard from "@/components/project_card";
 import AnimatedContent from "@/components/react-bits/animated_content";
 import Particles from "@/components/react-bits/particles_background";
 import { Metadata } from "next";
 
-export const metadata: Metadata = {
-    title: "limegradient's projects",
-    description: "Projects by LimeGradient",
-};
-
 export default function ProjectsPage() {
     return (
-        <Layout>
+        <Layout title="limegradient's projects" description="Projects by LimeGradient">
             <Particles />
-            <div className="absolute inset-0 flex flex-col items-center justify-center bg-black opacity-75 z-10">
+            <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
                 <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-zinc-50 z-1000">
                     Projects 
                 </h1>       

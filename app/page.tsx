@@ -1,26 +1,25 @@
+"use client"
+
 import Layout from "@/components/layout";
 import GradientText from "@/components/react-bits/gradient_text";
 import Particles from "@/components/react-bits/particles_background";
+import VinylRecord from "@/components/vinyl_record";
 import { Metadata } from "next";
 import Image from "next/image";
 
-export const metadata: Metadata = {
-  title: "limegradient's portfolio",
-  description: "The homepage of limegradient.dev",
-};
-
-
 export default function Home() {
     return (
-        <Layout>
+        <Layout title="limegradient's portfolio" description="The homepage of LimeGradient's Portfolio">
             <Particles />
-            <div className="absolute inset-0 flex flex-col items-center justify-center bg-black opacity-75 z-10">
+            <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
                 <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-zinc-50 z-1000">
                     Hi, im Lily!
                 </h1>
                 <h3 className="text-zinc-50 z-1000">
                     An 18 year old self taught programmer
                 </h3>
+                <br />
+                <VinylRecord />
                 <footer className="fixed bottom-5 flex flex-row gap-1">
                     <GradientText colors={["#5BCEFA", "#F5A9B8", "#FFFFFF", "#F5A9B8", "#5BCEFA"]} animationSpeed={5} showBorder={false} yoyo={false}>
                         transgender

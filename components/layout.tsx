@@ -1,12 +1,20 @@
 import Navbar from "./navbar";
 
-export default function Layout({children}: Readonly<{children: React.ReactNode}>) {
+interface LayoutProps {
+    children: React.ReactNode,
+}
+
+export default function Layout(props: LayoutProps) {
+    const {children} = props
+
     return (
-        <div className="w-screen h-screen relative">
-            <div className="absolute flex flex-col items-center inset-x-0 top-2 left-0 z-100">
-                <Navbar />
+        <>
+            <div className="w-screen h-screen relative">
+                <div className="absolute flex flex-col items-center inset-x-0 top-2 left-0 z-100">
+                    <Navbar />
+                </div>
+                {children}
             </div>
-            {children}
-        </div>
+        </>
     )
 }

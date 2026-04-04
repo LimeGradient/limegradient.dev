@@ -11,7 +11,7 @@ export default function Home() {
             <Particles />
             <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
                 <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-zinc-50 z-1000">
-                    Hi, im Lily!
+                    Hi, im Chloe!
                 </h1>
                 <h3 className="text-zinc-50 z-1000">
                     An 18 year old programmer

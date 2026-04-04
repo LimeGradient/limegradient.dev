@@ -13,7 +13,7 @@ export default function AboutPage() {
                 </h1>
                 <br />
                 <p className="text-zinc-50 text-center">
-                    Hi! My name is Lily and i'm an 18 year old. I am an avid programmer who loooooves working on stuff like websites and games. <br />
+                    Hi! My name is Chloe and i'm an 18 year old. I am an avid programmer who loooooves working on stuff like websites and games. <br />
                     Since I was little, i've loved video games and always wanted to learn how to make them. So I dedicated a few years of my life to learning how to make video games! <br />
                     I also was always interested in how websites were made, so I spent a few years learning React and Typescript to become a full stack developer!
                 </p>
